@@ -27,8 +27,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - All the clothes are shown in the main section of the application, under different categories
 - Users can add, delete and increase the items they want. The total amount will be shown in the cart section
 - Users can clear the cart by clicking the clear button
-*
+
 - Only the admin can add clothes by defining their title, price, size, category and a picture
 - All the information are stored in Firestore
 
 
+### Screenshots:
+![homepage](./src/assets/ss1.jpeg "Home Page")
+![cart](./src/assets/ss2.jpeg "Cart Info")
+![categories](./src/assets/ss3.jpeg "Category Section")
