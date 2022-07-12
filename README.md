@@ -36,3 +36,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![homepage](./src/assets/ss1.jpeg "Home Page")
 ![cart](./src/assets/ss2.jpeg "Cart Info")
 ![categories](./src/assets/ss3.jpeg "Category Section")
+
+### [Presentation Video](https://www.youtube.com/watch?v=d46iztNzKfc)
