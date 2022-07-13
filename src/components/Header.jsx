@@ -115,11 +115,11 @@ const Header = () => {
             </div>
             {/*mobile */}
             <div className='flex items-center justify-between md:hidden h-full'>
-                <div className='relative flex items-center justify-center'>
+                <div className='relative flex items-center justify-center' onClick={showCart}>
                     <MdShoppingBasket className='text-textColor text-2xl ml-8 cursor-pointer'></MdShoppingBasket>
                     {cartItems && cartItems.length > 0 && (
                         <div className=" absolute -top-2 -right-2 w-5 h-5 rounded-full bg-cartNumBg flex items-center justify-center">
-                            <p className="text-xs text-white font-semibold">
+                            <p className="text-xs text-black font-semibold">
                                 {cartItems.length}
                             </p>
                         </div>

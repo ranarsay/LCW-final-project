@@ -29,14 +29,14 @@ const HomeContainer = () => {
                 </button>
             </div>
 
-            <div className='py-2 flex flex-1 items-center relative'>
+            <div className='py-2 flex flex-2 items-center relative'>
                 <div className='w-full flex items-center justify-center relative'>
                     <img src={HeroBg} className="ml-auto h-420 w-full lg:w-auto lg:h-650" alt="herobg" />
                     <div className='w-full h-full absolute top-0 left-0 flex items-center 
-                    justify-center px-32 py-4 gap-4 flex-wrap'>
+                    justify-center lg:px-32 py-4 gap-4 flex-wrap'>
                         {
                             heroData && heroData.map(n => (
-                                <div key={n.id} className='lg:w-190  p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg'>
+                                <div key={n.id} className='lg:w-190 p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col flex-wrap items-center justify-center drop-shadow-lg'>
                                     <img src={n.imageSrc} className="w-20 lg:w-40 -mt-10 lg:-mt-20 " alt={n.imageSrc}></img>
                                     <p className='text-base font-semibold text-textColor pt-3'>{n.name}</p>
                                     <p className='text-sm font-semibold text-headingColor'>
